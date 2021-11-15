@@ -1,2 +1,2 @@
 # myproject
-this is clone website make by me
+These are fake websites created by me
