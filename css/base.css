@@ -1,0 +1,71 @@
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);                
+    }
+}
+
+:root{
+    --primary-color: #F7422E;
+    --text-color: #313131;
+}
+/* btn */
+.btn {
+    border: none;
+    padding: 8px 12px;
+    color: var(--text-color);
+    border-radius: 2px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* grid */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+}
+.grid__row{
+    width: 100%;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__column-2{
+    width: 16.6667%;
+    margin: 0 6px;
+}
+
+.grid__column-10{
+    width: 83%;
+    margin: 0 12px;
+}
+
+.grid__column-10-2{
+    width: 18.7%;
+    margin: 0 6px;
+}
+
+
+
+
+
+
+
